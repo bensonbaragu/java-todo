@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     tools {
-        gradle "gradle"
+        gradle 'gradle'
     }
     stages{
         stage("Clone code into Jenkins container"){
