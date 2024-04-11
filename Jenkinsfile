@@ -16,7 +16,7 @@ pipeline {
                 sh 'gradle test'
             }
         }
-        tage ("Gradle run") {
+        Stage ("Gradle run") {
             steps{
                 sh 'gradle run'
             }
